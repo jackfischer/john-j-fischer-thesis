@@ -1,0 +1,140 @@
+\documentclass[11pt,twoside,openright,final]{memoir}
+% ---------------- page geometry: 6 x 9 in trim, no bleed ----------------
+\setstocksize{9in}{6in}
+\settrimmedsize{9in}{6in}{*}
+\settrims{0pt}{0pt}
+\setlrmarginsandblock{0.82in}{1.05in}{*}   % inner (gutter), outer
+\setulmarginsandblock{0.88in}{1.02in}{*}   % top, bottom
+\setheadfoot{14pt}{0.42in}
+\setheaderspaces{*}{0.24in}{*}
+\checkandfixthelayout[nearest]
+% ---------------- language & fonts ----------------
+\usepackage[american]{babel}
+% EB Garamond static OTFs from the TeX Live ebgaramond package (loaded via fontspec
+% because Debian's package lacks the Initials font that ebgaramond.sty insists on)
+\usepackage{fontspec}
+\setmainfont{EBGaramond}[Extension=.otf,
+  UprightFont=*-Regular, ItalicFont=*-Italic,
+  BoldFont=*-SemiBold, BoldItalicFont=*-SemiBoldItalic,
+  Numbers={OldStyle,Proportional}, Ligatures={TeX,Common}]
+\linespread{1.04}
+\usepackage[protrusion=true,expansion=true,tracking=true,
+            final,stretch=15,shrink=15,step=1]{microtype}
+\SetTracking{encoding=*,shape=sc}{40}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\providecommand{\texorpdfstring}[2]{#1}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcommand{\lsc}[1]{\textls[80]{\scshape #1}}
+\newcommand{\hsc}[1]{\textls[60]{\scshape #1}}       % running-head small caps       % letterspaced small caps
+\newcommand{\capsit}[1]{\textsc{#1}}                 % typed CAPITALS in the source
+% ---------------- paragraph & break penalties ----------------
+\setlength{\parindent}{1.2em}
+\clubpenalty=10000 \widowpenalty=10000 \displaywidowpenalty=10000
+\brokenpenalty=5000
+\doublehyphendemerits=20000 \finalhyphendemerits=10000
+\tolerance=800 \emergencystretch=1.5em
+\hyphenpenalty=60
+\frenchspacing
+\sloppybottom
+\raggedbottomsection
+% ---------------- running heads ----------------
+\newcommand{\booktitle}{An Ideological Offensive for the Free World}
+\makepagestyle{fischer}
+\makeevenhead{fischer}{\oldstylenums{\thepage}}{\hsc{\MakeLowercase{\booktitle}}}{}
+\makeoddhead{fischer}{}{\hsc{\MakeLowercase{\rightmark}}}{\oldstylenums{\thepage}}
+\makeevenfoot{fischer}{}{}{}
+\makeoddfoot{fischer}{}{}{}
+\makepsmarks{fischer}{%
+  \def\chaptermark##1{\markboth{##1}{##1}}%
+  \def\sectionmark##1{}\def\subsectionmark##1{}%
+  \def\tocmark{\markboth{\contentsname}{\contentsname}}}
+\makepagestyle{plain}
+\makeevenfoot{plain}{}{\footnotesize\thepage}{}
+\makeoddfoot{plain}{}{\footnotesize\thepage}{}
+\aliaspagestyle{chapter}{plain}
+\pagestyle{fischer}
+% ---------------- chapter style ----------------
+\renewcommand{\thechapter}{\Roman{chapter}}
+\makechapterstyle{fischer}{%
+  \setlength{\beforechapskip}{0.75in}
+  \setlength{\midchapskip}{0.9\onelineskip}
+  \setlength{\afterchapskip}{2.6\onelineskip}
+  \renewcommand{\chapnamefont}{\normalfont\normalsize}
+  \renewcommand{\chapnumfont}{\normalfont\normalsize}
+  \renewcommand{\printchaptername}{\centering\lsc{chapter}}
+  \renewcommand{\chapternamenum}{\enspace}
+  \renewcommand{\printchapternum}{\lsc{\MakeLowercase{\thechapter}}}
+  \renewcommand{\afterchapternum}{\par\nobreak\vskip\midchapskip}
+  \renewcommand{\chaptitlefont}{\normalfont\LARGE\itshape}
+  \renewcommand{\printchaptertitle}[1]{%
+    {\centering\chaptitlefont\begin{minipage}{0.86\textwidth}\centering\linespread{1.1}\selectfont ##1\end{minipage}\par}%
+    \vskip 1.1\onelineskip{\centering\rule[0.5ex]{3em}{0.4pt}\par}}
+  \renewcommand{\printchapternonum}{}
+  \renewcommand{\afterchaptertitle}{\par\nobreak\vskip\afterchapskip}
+}
+\chapterstyle{fischer}
+\setsecnumdepth{chapter}
+\settocdepth{section}
+% section headings: centred caps-and-small-caps
+\setbeforesecskip{-1.6\onelineskip plus -0.4\onelineskip minus -0.2\onelineskip}
+\setaftersecskip{0.9\onelineskip}
+\setsecheadstyle{\centering\normalfont\normalsize\scshape}
+\setsubsecheadstyle{\centering\normalfont\itshape}
+% ---------------- table of contents ----------------
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\printtoctitle}[1]{\centering\normalfont\LARGE\itshape #1}
+\renewcommand{\aftertoctitle}{\par\nobreak\vskip 0.6\onelineskip{\centering\rule[0.5ex]{3em}{0.4pt}\par}\vskip 0.9\onelineskip}
+\setlength{\cftbeforechapterskip}{0.3\onelineskip}
+\renewcommand{\cftchapterfont}{\normalfont}
+\renewcommand{\cftchapterpagefont}{\normalfont}
+\renewcommand{\cftchapterleader}{\hfill}
+\renewcommand{\cftchapterdotsep}{\cftnodots}
+\setlength{\cftchapternumwidth}{2.4em}
+\renewcommand{\cftsectionfont}{\normalfont\small\itshape}
+\renewcommand{\cftsectionpagefont}{\normalfont\small}
+\renewcommand{\cftsectionleader}{\hfill}
+\renewcommand{\cftsectiondotsep}{\cftnodots}
+\setlength{\cftsectionindent}{2.4em}
+\setlength{\cftsectionnumwidth}{0pt}
+\setlength{\cftbeforesectionskip}{0pt}
+\setrmarg{3.5em}\setpnumwidth{2em}
+% ---------------- footnotes ----------------
+\counterwithout{footnote}{chapter}
+\newcommand{\supnum}[1]{{\addfontfeatures{VerticalPosition=Superior}#1}}
+\renewcommand*{\thefootnote}{\arabic{footnote}}
+\makeatletter
+\renewcommand*{\@makefnmark}{\hbox{\normalfont\supnum{\@thefnmark}}}
+\makeatother
+\footmarkstyle{\oldstylenums{#1}.\hfill}
+\setlength{\footmarkwidth}{1.4em}
+\setlength{\footmarksep}{0pt}
+\setlength{\footparindent}{1em}
+\renewcommand{\foottextfont}{\footnotesize\linespread{1.0}\selectfont}
+\setlength{\skip\footins}{1.3\onelineskip plus 4pt minus 2pt}
+\setlength{\footnotesep}{0.75\onelineskip}
+\renewcommand{\footnoterule}{\kern-3pt\hrule width 4em height 0.4pt\kern 2.6pt}
+\interfootnotelinepenalty=8000
+% ---------------- quotations ----------------
+\renewenvironment{quote}{%
+  \par\small
+  \list{}{\leftmargin=1.6em\rightmargin=0.6em
+          \topsep=0.55\onelineskip plus 3pt minus 2pt
+          \partopsep=0pt\parsep=0pt\itemsep=0pt
+          \listparindent=1em\itemindent=0pt}%
+  \item\relax}{\endlist}
+\makeatletter
+\newcommand{\marginalnote}[2]{%
+  \par\addvspace{0.45\onelineskip}%
+  {\leftskip=1.6em\rightskip=0pt plus 4em\parindent=0pt\footnotesize\itshape
+   (#1: #2)\par}\nopagebreak\vskip 0.2\onelineskip\nopagebreak\@nobreaktrue}
+\makeatother
+% ---------------- lists ----------------
+\setlist[enumerate]{leftmargin=2.2em,labelsep=0.6em,itemsep=0.35\onelineskip,topsep=0.5\onelineskip,label=\alph*.}
+% ---------------- bibliography ----------------
+\makeatletter
+\newenvironment{bibentry}{\par\addvspace{0.55\onelineskip plus 0.5\onelineskip}\parindent=0pt
+  \everypar{\hangindent=1.1em\hangafter=1}}{\par}
+\newenvironment{bibnote}{\par\nopagebreak\@nobreaktrue\small\everypar{}%
+  \list{}{\leftmargin=2.2em\rightmargin=0pt\topsep=0pt\partopsep=0pt\parsep=0pt\itemsep=0pt\listparindent=0pt\itemindent=0pt}\item\relax}{\endlist}
+\makeatother
