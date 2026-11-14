@@ -1,0 +1,977 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "observed_inputs": {
+    "source/original-1957-typescript-scan.pdf": "b1ee8fe4688ecfdb2c7a6f971fdcca8574505de1137df4efb20fc8e2f252ec2d",
+    "source/manuscript.md": "0c8fb2b9479ef1f12f851445736a124b4ae3298e3474b24c2bd8c9154582b89b",
+    "book.pdf": "845ceb423e67010d1770e88e2b77801bea5aee7f6c8ba5296750956f849673c7"
+  },
+  "findings": [
+    {
+      "id": "candidate-p005-dd3ff2e73319",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "prophesy",
+      "markdown": "prophecy",
+      "both_ocr_proposal": "prophesy",
+      "context_before": "Karl Marx s theories have been given the force of a Messianic",
+      "context_after": "This Messianic and seemingly inevitable victory has been strongly proclaimed by the",
+      "markdown_location": {
+        "text": "prophecy",
+        "key": "prophecy",
+        "block": "/24",
+        "section": "body",
+        "markdown_line": 53,
+        "offset": 160
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p005-dd3ff2e73319.png",
+          "sha256": "231b144faae0c42998f14e0b8e494d0364849bfadf895a8f36df06cda12d75f9",
+          "source_pdf_page": 5,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2057,
+            2450,
+            2381
+          ],
+          "source_page_raster_sha256": "ef757f5127cd7f13f7bb2365ef18aae2dae2f33113f540664a2221933305653a"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p007-003fbfe070fb",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "analyse",
+      "markdown": "analyze",
+      "both_ocr_proposal": "analyse",
+      "context_before": "overthrow governments by force and violence 13 it is essential to study",
+      "context_after": "dissect and refute them as a preliminary step to formulating an ideological",
+      "markdown_location": {
+        "text": "analyze",
+        "key": "analyze",
+        "block": "/35",
+        "section": "body",
+        "markdown_line": 75,
+        "offset": 292
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p007-003fbfe070fb.png",
+          "sha256": "7771df6eb6439c8b504f5bd9649b9bfd96d91660c458a7a6ac2ab3ff0832a1c7",
+          "source_pdf_page": 7,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2239,
+            2450,
+            2557
+          ],
+          "source_page_raster_sha256": "086736d0d160b7068b4c5a7d1b4926fd5469c018dd1e633d3fc6ecfcd1650b3e"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p011-a740e3a88626",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "basis",
+      "markdown": "basic",
+      "both_ocr_proposal": "basis",
+      "context_before": "thought ideas mind and spirit and by affirming that matter is the",
+      "context_after": "reality said 27 Let us forget about the absolute Idea let us",
+      "markdown_location": {
+        "text": "basic",
+        "key": "basic",
+        "block": "/50",
+        "section": "body",
+        "markdown_line": 105,
+        "offset": 1000
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p011-a740e3a88626.png",
+          "sha256": "a3e3e4d0201dada5d18c5412c3c49524f4d29609bb32918e4a59d2f81ccdc963",
+          "source_pdf_page": 11,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            968,
+            2450,
+            1291
+          ],
+          "source_page_raster_sha256": "c143e1d1dfdf1674b05aa1bf9b899c10467a2f6efd0aed7c87b4dae72b715009"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p013-abcb83504d6a",
+      "disposition": "UNRESOLVED",
+      "scan_reading": null,
+      "markdown": "environment",
+      "both_ocr_proposal": "enviroment",
+      "context_before": "first tells us that the drive of individual self interest in an",
+      "context_after": "of similarly motivated individuals will result in competition and demonstrates how competition",
+      "markdown_location": {
+        "text": "environment",
+        "key": "environment",
+        "block": "/61",
+        "section": "body",
+        "markdown_line": 139,
+        "offset": 1726
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p013-abcb83504d6a.png",
+          "sha256": "df9d6c85f1d373fd12ca18255e57f2851a4dc1822255059fffe7f01f7d4a5bf2",
+          "source_pdf_page": 13,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1878,
+            2450,
+            2204
+          ],
+          "source_page_raster_sha256": "99faeb38ea24633c135bf75e8c8d83b76173bbd88ba8405319cccdaaf33fb2e2"
+        }
+      ],
+      "basis": "Scan remains ambiguous; OCR agreement does not settle the reading.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p035-958684cf3031",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "full",
+      "markdown": "fully",
+      "both_ocr_proposal": "full",
+      "context_before": "simply assembles the statistics and indicates the processes they represent To appreciate",
+      "context_after": "the distinction of Lenin s intellectual equipment one had to hear him",
+      "markdown_location": {
+        "text": "fully",
+        "key": "fully",
+        "block": "/164",
+        "section": "body",
+        "markdown_line": 347,
+        "offset": 376
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p035-958684cf3031.png",
+          "sha256": "3d7dc1b84bf9ce9ae7ea7cf5f2553d2e6885bed322e4beaac3c3bfab526ab795",
+          "source_pdf_page": 35,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2254,
+            2450,
+            2572
+          ],
+          "source_page_raster_sha256": "89c5a5c4dfed45cf40a904f1059889df8d90599b7bd253f945af5d845145230b"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p037-e34c80b853fc",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "mere",
+      "markdown": "mere",
+      "both_ocr_proposal": "more",
+      "context_before": "principles of democracy in the revolutionary party The crisis occurred over a",
+      "context_after": "clause in the program for the party which Plekhanov and Lenin had",
+      "markdown_location": {
+        "text": "mere",
+        "key": "mere",
+        "block": "/167",
+        "section": "body",
+        "markdown_line": 353,
+        "offset": 371
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p037-e34c80b853fc.png",
+          "sha256": "68cba52de32398007808dd81e6a26db31d4256dbd2a012dc87d3bedc15d2e141",
+          "source_pdf_page": 37,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            477,
+            2450,
+            813
+          ],
+          "source_page_raster_sha256": "d4b25155ebedb2e9f9f7d8035364b605ec2a307f833e2a1440cd007da21688fa"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p037-6ceb225634be",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "member",
+      "markdown": "members",
+      "both_ocr_proposal": "member",
+      "context_before": "and most determined His adherents were known thereafter as the Bolsheviki or",
+      "context_after": "of the majority and his adversaries as the Mensheviki or members of",
+      "markdown_location": {
+        "text": "members",
+        "key": "members",
+        "block": "/169",
+        "section": "body",
+        "markdown_line": 357,
+        "offset": 183
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p037-6ceb225634be.png",
+          "sha256": "f1ba65a289941d59254423eda1f07875d3abc0c9601a8d56bdfe9c1fc0d14069",
+          "source_pdf_page": 37,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1507,
+            2450,
+            1840
+          ],
+          "source_page_raster_sha256": "d4b25155ebedb2e9f9f7d8035364b605ec2a307f833e2a1440cd007da21688fa"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p038-30ab53efd251",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "portend",
+      "markdown": "portent",
+      "both_ocr_proposal": "portend",
+      "context_before": "be the signal for revolution elsewhere So certain was Lenin of the",
+      "context_after": "of events in Russia that on the very eve of the revolution",
+      "markdown_location": {
+        "text": "portent",
+        "key": "portent",
+        "block": "/173",
+        "section": "body",
+        "markdown_line": 365,
+        "offset": 448
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p038-30ab53efd251.png",
+          "sha256": "ea5c54d327cd0f34741dabab5b4f5cb42e9bcea3aa17c37dde77323d09287806",
+          "source_pdf_page": 38,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2354,
+            2450,
+            2663
+          ],
+          "source_page_raster_sha256": "6ac37f2a57fb34fdff0294cdab149f58070454611da146617f8e5a5bb279b45a"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p040-1d9775b720fb",
+      "disposition": "UNRESOLVED",
+      "scan_reading": null,
+      "markdown": "and",
+      "both_ocr_proposal": "a",
+      "context_before": "broad industrial base in which conflicts would give rise to proletarian revolution",
+      "context_after": "eventual socialism But in Russia the proletarian revolution had come first and",
+      "markdown_location": {
+        "text": "and",
+        "key": "and",
+        "block": "/177",
+        "section": "body",
+        "markdown_line": 373,
+        "offset": 1448
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p040-1d9775b720fb.png",
+          "sha256": "fb8d8ecb2c4519282559f7c5a198bcaab44678610624721b0b1053bf29304148",
+          "source_pdf_page": 40,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1130,
+            2450,
+            1444
+          ],
+          "source_page_raster_sha256": "f041ea92d8ee6a8e24b6042e21dae8da7cc3bde136cfcce221f85f54c63c9729"
+        }
+      ],
+      "basis": "Scan remains ambiguous; OCR agreement does not settle the reading.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p052-6a1553137d67",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "multiply",
+      "markdown": "multiply",
+      "both_ocr_proposal": "miltiply",
+      "context_before": "a you do not have to negate at all you can simply",
+      "context_after": "a plus by a plus Although Engels did admit that one has",
+      "markdown_location": {
+        "text": "multiply",
+        "key": "multiply",
+        "block": "/228",
+        "section": "body",
+        "markdown_line": 496,
+        "offset": 449
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p052-6a1553137d67.png",
+          "sha256": "07d0fb4079afcb563994092a8e075de0f845959d1367141381ea689101152d83",
+          "source_pdf_page": 52,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            464,
+            2450,
+            777
+          ],
+          "source_page_raster_sha256": "1ab713d7684c2424f6326cf262a45a6305314ee7784501bfca15a045ebb3dbf3"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p052-7d221213a7aa",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "reconcilation",
+      "markdown": "reconciliation",
+      "both_ocr_proposal": "reconcilation",
+      "context_before": "of being able to sublimate suppose he kills himself Where is the",
+      "context_after": "of opposites in the synthesis Where is the progression from the lower",
+      "markdown_location": {
+        "text": "reconciliation",
+        "key": "reconciliation",
+        "block": "/229",
+        "section": "body",
+        "markdown_line": 498,
+        "offset": 608
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p052-7d221213a7aa.png",
+          "sha256": "cb5ed27e54aebee98490a0a06cf55585423484fce1585f5c2d0453e8cd62f632",
+          "source_pdf_page": 52,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1196,
+            2450,
+            1520
+          ],
+          "source_page_raster_sha256": "1ab713d7684c2424f6326cf262a45a6305314ee7784501bfca15a045ebb3dbf3"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p054-7ea010820d41",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "snake",
+      "markdown": "snake",
+      "both_ocr_proposal": "make",
+      "context_before": "like the six blind men who variously described the elephant as a",
+      "context_after": "wall and pillar etc because they touched only its trunk side and",
+      "markdown_location": {
+        "text": "snake",
+        "key": "snake",
+        "block": "/238",
+        "section": "body",
+        "markdown_line": 518,
+        "offset": 1318
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p054-7ea010820d41.png",
+          "sha256": "58d1baf0aa68abd6117cc5bd0cee81cc302b2d521fe01fa8a68036d823bd2e1d",
+          "source_pdf_page": 54,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2565,
+            2450,
+            2906
+          ],
+          "source_page_raster_sha256": "d9f2c8c2cae0ecdb679a96fa74e9170af53a7f0f16da5a3c71ae491c4003fcf3"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p056-ca316ec4f196",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "explored",
+      "markdown": "explored",
+      "both_ocr_proposal": "ex plore",
+      "context_before": "the question logically follows would it not throw more light if it",
+      "context_after": "as well such areas as politics religion science literature and leading personalities",
+      "markdown_location": {
+        "text": "explored",
+        "key": "explored",
+        "block": "/240",
+        "section": "body",
+        "markdown_line": 522,
+        "offset": 1081
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p056-ca316ec4f196.png",
+          "sha256": "a03febef4736f7e93ca4f19edc03ed964046d845fef01845deb6d6ccc165cf24",
+          "source_pdf_page": 56,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            351,
+            2450,
+            719
+          ],
+          "source_page_raster_sha256": "f3ddf44e51f524c3480d004ddf007c8b14f194a2b03c933cc07f4a672a6aa4b1"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p057-51c1b3aceed8",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "classess",
+      "markdown": "classes",
+      "both_ocr_proposal": "classess",
+      "context_before": "The facts show however that capitalist society has become less polarized into",
+      "context_after": "in England and elsewhere It is true that handicraft industries small scale",
+      "markdown_location": {
+        "text": "classes",
+        "key": "classes",
+        "block": "/243",
+        "section": "body",
+        "markdown_line": 528,
+        "offset": 451
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p057-51c1b3aceed8.png",
+          "sha256": "f6360da4b9a02c807276603173daeea616054af7d392e5a587601908e7cc7060",
+          "source_pdf_page": 57,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2005,
+            2450,
+            2345
+          ],
+          "source_page_raster_sha256": "9219850610e27a5eca8694ae1bd743c93984dd48bf40d4a9ab64d454f418df59"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p058-c53b19dbef6d",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "1848",
+      "markdown": "1848",
+      "both_ocr_proposal": "1846",
+      "context_before": "the social structure There were other predictions which failed to materialize In",
+      "context_after": "Marx predicted a revolution with each war and each economic crisis which",
+      "markdown_location": {
+        "text": "1848",
+        "key": "1848",
+        "block": "/245",
+        "section": "body",
+        "markdown_line": 532,
+        "offset": 61
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p058-c53b19dbef6d.png",
+          "sha256": "874b30448fdd71058428207687aea2bd8ca8d8982789aad6e9dcd084f9fbb7f3",
+          "source_pdf_page": 58,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            545,
+            2450,
+            874
+          ],
+          "source_page_raster_sha256": "c1588d8449997d213102949ea98cfcbacf53a0bc7ba4f503187f90baf7bf8147"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p061-136712e407c4",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "in",
+      "markdown": "is",
+      "both_ocr_proposal": "in",
+      "context_before": "national state like England Toynbee s key to the riddle of history",
+      "context_after": "his hypothesis of challenge and response According to this theory the rise",
+      "markdown_location": {
+        "text": "is",
+        "key": "is",
+        "block": "/256",
+        "section": "body",
+        "markdown_line": 555,
+        "offset": 329
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p061-136712e407c4.png",
+          "sha256": "f5a17db832038e2e90480af3957eb5db74b5a84693038508945f2b243c79e33f",
+          "source_pdf_page": 61,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            915,
+            2450,
+            1242
+          ],
+          "source_page_raster_sha256": "6c8479b4346b710547f9a211dc4f4188d32b65061d0c0b513166000d85e5ad0d"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p066-5ff000a95886",
+      "disposition": "UNRESOLVED",
+      "scan_reading": null,
+      "markdown": "criticism",
+      "both_ocr_proposal": "criticies",
+      "context_before": "one test discovered a few years ago religion Limited research of the",
+      "context_after": "of professional historians reveals no explanation for the about face of Toynbee",
+      "markdown_location": {
+        "text": "criticism",
+        "key": "criticism",
+        "block": "/274",
+        "section": "body",
+        "markdown_line": 591,
+        "offset": 24
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p066-5ff000a95886.png",
+          "sha256": "7e337c34402d1e6ea27123d8f0c20b169e22fc2f8d92882402b1341feaaae943",
+          "source_pdf_page": 66,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1771,
+            2450,
+            2085
+          ],
+          "source_page_raster_sha256": "c5d4148fd6cc1e05b52c3241b45d4ccaf7893a3643757b462961b0413570882a"
+        }
+      ],
+      "basis": "Scan remains ambiguous; OCR agreement does not settle the reading.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p082-169bb87d79e5",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "compliment",
+      "markdown": "complement",
+      "both_ocr_proposal": "compliment",
+      "context_before": "in the nature of man and have discovered that they do not",
+      "context_after": "each other In constructing his theory of history Marx ignored the question",
+      "markdown_location": {
+        "text": "complement",
+        "key": "complement",
+        "block": "/317",
+        "section": "body",
+        "markdown_line": 692,
+        "offset": 159
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p082-169bb87d79e5.png",
+          "sha256": "5d7ce0461f4e44aa4a4e5646ba771b88c7b4a0fc83fcd2c334509c83488c3642",
+          "source_pdf_page": 82,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1240,
+            2450,
+            1559
+          ],
+          "source_page_raster_sha256": "6a1dc589d380617e9165ed109e3a646b66af4ea48c8f6616c82d1cf88b48f647"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p085-3b43212f6d7f",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "zoot",
+      "markdown": "zoot",
+      "both_ocr_proposal": "scot",
+      "context_before": "at a time drinking for weeks on end Stilyagi are chided and",
+      "context_after": "suited male and disgracefully attired female offspring of the intelligentsia who live",
+      "markdown_location": {
+        "text": "zoot",
+        "key": "zoot",
+        "block": "/331",
+        "section": "body",
+        "markdown_line": 721,
+        "offset": 27
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p085-3b43212f6d7f.png",
+          "sha256": "a331839f53e70c3fbfab5cf875e65e66764c2f71351f494e8d65d643c2409be2",
+          "source_pdf_page": 85,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2069,
+            2450,
+            2400
+          ],
+          "source_page_raster_sha256": "35d968b2f2957e1317d430185f82c2cb69996915bfa22779aaf5210bccd3a7f4"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p091-bcfaa5d50fc3",
+      "disposition": "UNRESOLVED",
+      "scan_reading": null,
+      "markdown": "government",
+      "both_ocr_proposal": "goverment",
+      "context_before": "knew that the unsolved problem of society was the erection of a",
+      "context_after": "having all the powers necessary to guard the peace and the liberties",
+      "markdown_location": {
+        "text": "government",
+        "key": "government",
+        "block": "/352",
+        "section": "body",
+        "markdown_line": 777,
+        "offset": 69
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p091-bcfaa5d50fc3.png",
+          "sha256": "6c62585c24d709694271bb5aedc4cf1136429da50d5f692a98594d63c03d4ea9",
+          "source_pdf_page": 91,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            2493,
+            2450,
+            2806
+          ],
+          "source_page_raster_sha256": "8d786d12969134e6704d38e040e2c2a09f9ca04fb68ef86db2d9c1792347dfdb"
+        }
+      ],
+      "basis": "Scan remains ambiguous; OCR agreement does not settle the reading.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p092-d7d2b70ce10f",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "seperate",
+      "markdown": "separate",
+      "both_ocr_proposal": "seperate",
+      "context_before": "but to divide government into several groupings each group entrusted with a",
+      "context_after": "set of functions Great controversy and long debate on this point between",
+      "markdown_location": {
+        "text": "separate",
+        "key": "separate",
+        "block": "/352",
+        "section": "body",
+        "markdown_line": 777,
+        "offset": 1763
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p092-d7d2b70ce10f.png",
+          "sha256": "29c3cad73b762b75619b006994b7e7fc4024222032d82b5f27d4bc254cf29e26",
+          "source_pdf_page": 92,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1160,
+            2450,
+            1463
+          ],
+          "source_page_raster_sha256": "dc561300fd718eed3a4ece0efd8380e0fa0edb6401e64f83cb586dd55968d691"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p114-a28942d35cd2",
+      "disposition": "REJECTED_OCR",
+      "scan_reading": "Mars",
+      "markdown": "Mars",
+      "both_ocr_proposal": "Mara",
+      "context_before": "Christianity Easy reading Malik Charles H The Problem of Coexistence The 1955",
+      "context_after": "Lectures Chicago Illinois Northwestern University 1955 Ambassador Malik expertly depicts the problems",
+      "markdown_location": {
+        "text": "Mars",
+        "key": "mars",
+        "block": "/430",
+        "section": "bibliography",
+        "markdown_line": null,
+        "offset": 56
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p114-a28942d35cd2.png",
+          "sha256": "1931b2a0f8058a8f597e802085549db6737827270240fd82bc4c9e18725bd8f0",
+          "source_pdf_page": 114,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1423,
+            2450,
+            1742
+          ],
+          "source_page_raster_sha256": "b557b4750878d46f446f38973c1a5cf9e2708e997d05d64f40ba402fefedbd37"
+        }
+      ],
+      "basis": "Direct scan inspection rejects the shared OCR suggestion.",
+      "correction_applied": false
+    },
+    {
+      "id": "candidate-p119-eb5a15d95644",
+      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "scan_reading": "charge",
+      "markdown": "charg",
+      "both_ocr_proposal": "charge",
+      "context_before": "commenting on the call made upon the Papal Nuncio by the Soviet",
+      "context_after": "d affaires in Rome the editor points out that the gesture was",
+      "markdown_location": {
+        "text": "charg",
+        "key": "charg",
+        "block": "/471",
+        "section": "bibliography",
+        "markdown_line": 1317,
+        "offset": 67
+      },
+      "evidence": [
+        {
+          "path": "audit/evidence/candidate-p119-eb5a15d95644.png",
+          "sha256": "b327cecdc6cc8b7cd85d0550f694bc48624f1d03139af9a1d84d68a038ebe229",
+          "source_pdf_page": 119,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            1900,
+            2450,
+            2226
+          ],
+          "source_page_raster_sha256": "1354223e45e67b6aae1114244e6bae131e48358d4fd93edbc9630b71c4b2e25a"
+        }
+      ],
+      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
+      "correction_applied": false
+    },
+    {
+      "id": "source-heading-note-30",
+      "disposition": "SOURCE_VERIFIED_REPAIR",
+      "heading": "Adam Smith",
+      "original_note": 30,
+      "markdown": "Marker absent from heading",
+      "printed": "Marker restored by the existing build",
+      "basis": "The numbered marker is visible beside the heading in the scan.",
+      "evidence": [
+        {
+          "path": "audit/evidence/source-heading-note-30.png",
+          "sha256": "4e57cad656445f2b04b1a78f5ab2c8d405223e22fd21c778a46c97ac6ae73fb1",
+          "source_pdf_page": 13,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            570,
+            2000,
+            920
+          ],
+          "source_page_raster_sha256": "99faeb38ea24633c135bf75e8c8d83b76173bbd88ba8405319cccdaaf33fb2e2"
+        }
+      ],
+      "correction_applied": false
+    },
+    {
+      "id": "source-heading-note-31",
+      "disposition": "SOURCE_VERIFIED_REPAIR",
+      "heading": "Malthus and Ricardo",
+      "original_note": 31,
+      "markdown": "Marker absent from heading",
+      "printed": "Marker restored by the existing build",
+      "basis": "The numbered marker is visible beside the heading in the scan.",
+      "evidence": [
+        {
+          "path": "audit/evidence/source-heading-note-31.png",
+          "sha256": "0a98b0444dc69f904700cbe9d16f46a6634a20b615f674d6fa7794ae75d10529",
+          "source_pdf_page": 15,
+          "upright_raster_dpi": 300,
+          "crop_pixels_left_top_right_bottom": [
+            150,
+            200,
+            2000,
+            500
+          ],
+          "source_page_raster_sha256": "463cb30755ff0bf5381b1349b7340e4a89c280dd960d3da5ab6680a9d2df38c1"
+        }
+      ],
+      "correction_applied": false
+    },
+    {
+      "id": "uppercase-emphasis-converted-to-lowercase",
+      "disposition": "OBSERVED_DESIGN_TRANSFORM",
+      "description": "The existing generator changes uppercase emphasis to lowercase italics. The strict PDF comparison reports 26 contiguous case-difference groups; this is not an exact case-preserving transcription.",
+      "evidence": []
+    }
+  ],
+  "outstanding_review": [
+    "All 121 full scan pages still require complete line-by-line image review; spot inspections are not page sign-off.",
+    "OCR disagreement queue and uninspected shared candidates remain open, including punctuation, case, marginal notes, and bibliography.",
+    "Resolve confirmed transcription differences with an explicit evidence-backed changeset.",
+    "Review original and added front matter, original contents omission, per-character emphasis, and six nested-quote spacing differences."
+  ],
+  "full_page_review": {
+    "1": "UNREVIEWED",
+    "2": "UNREVIEWED",
+    "3": "UNREVIEWED",
+    "4": "UNREVIEWED",
+    "5": "UNREVIEWED",
+    "6": "UNREVIEWED",
+    "7": "UNREVIEWED",
+    "8": "UNREVIEWED",
+    "9": "UNREVIEWED",
+    "10": "UNREVIEWED",
+    "11": "UNREVIEWED",
+    "12": "UNREVIEWED",
+    "13": "UNREVIEWED",
+    "14": "UNREVIEWED",
+    "15": "UNREVIEWED",
+    "16": "UNREVIEWED",
+    "17": "UNREVIEWED",
+    "18": "UNREVIEWED",
+    "19": "UNREVIEWED",
+    "20": "UNREVIEWED",
+    "21": "UNREVIEWED",
+    "22": "UNREVIEWED",
+    "23": "UNREVIEWED",
+    "24": "UNREVIEWED",
+    "25": "UNREVIEWED",
+    "26": "UNREVIEWED",
+    "27": "UNREVIEWED",
+    "28": "UNREVIEWED",
+    "29": "UNREVIEWED",
+    "30": "UNREVIEWED",
+    "31": "UNREVIEWED",
+    "32": "UNREVIEWED",
+    "33": "UNREVIEWED",
+    "34": "UNREVIEWED",
+    "35": "UNREVIEWED",
+    "36": "UNREVIEWED",
+    "37": "UNREVIEWED",
+    "38": "UNREVIEWED",
+    "39": "UNREVIEWED",
+    "40": "UNREVIEWED",
+    "41": "UNREVIEWED",
+    "42": "UNREVIEWED",
+    "43": "UNREVIEWED",
+    "44": "UNREVIEWED",
+    "45": "UNREVIEWED",
+    "46": "UNREVIEWED",
+    "47": "UNREVIEWED",
+    "48": "UNREVIEWED",
+    "49": "UNREVIEWED",
+    "50": "UNREVIEWED",
+    "51": "UNREVIEWED",
+    "52": "UNREVIEWED",
+    "53": "UNREVIEWED",
+    "54": "UNREVIEWED",
+    "55": "UNREVIEWED",
+    "56": "UNREVIEWED",
+    "57": "UNREVIEWED",
+    "58": "UNREVIEWED",
+    "59": "UNREVIEWED",
+    "60": "UNREVIEWED",
+    "61": "UNREVIEWED",
+    "62": "UNREVIEWED",
+    "63": "UNREVIEWED",
+    "64": "UNREVIEWED",
+    "65": "UNREVIEWED",
+    "66": "UNREVIEWED",
+    "67": "UNREVIEWED",
+    "68": "UNREVIEWED",
+    "69": "UNREVIEWED",
+    "70": "UNREVIEWED",
+    "71": "UNREVIEWED",
+    "72": "UNREVIEWED",
+    "73": "UNREVIEWED",
+    "74": "UNREVIEWED",
+    "75": "UNREVIEWED",
+    "76": "UNREVIEWED",
+    "77": "UNREVIEWED",
+    "78": "UNREVIEWED",
+    "79": "UNREVIEWED",
+    "80": "UNREVIEWED",
+    "81": "UNREVIEWED",
+    "82": "UNREVIEWED",
+    "83": "UNREVIEWED",
+    "84": "UNREVIEWED",
+    "85": "UNREVIEWED",
+    "86": "UNREVIEWED",
+    "87": "UNREVIEWED",
+    "88": "UNREVIEWED",
+    "89": "UNREVIEWED",
+    "90": "UNREVIEWED",
+    "91": "UNREVIEWED",
+    "92": "UNREVIEWED",
+    "93": "UNREVIEWED",
+    "94": "UNREVIEWED",
+    "95": "UNREVIEWED",
+    "96": "UNREVIEWED",
+    "97": "UNREVIEWED",
+    "98": "UNREVIEWED",
+    "99": "UNREVIEWED",
+    "100": "UNREVIEWED",
+    "101": "UNREVIEWED",
+    "102": "UNREVIEWED",
+    "103": "UNREVIEWED",
+    "104": "UNREVIEWED",
+    "105": "UNREVIEWED",
+    "106": "UNREVIEWED",
+    "107": "UNREVIEWED",
+    "108": "UNREVIEWED",
+    "109": "UNREVIEWED",
+    "110": "UNREVIEWED",
+    "111": "UNREVIEWED",
+    "112": "UNREVIEWED",
+    "113": "UNREVIEWED",
+    "114": "UNREVIEWED",
+    "115": "UNREVIEWED",
+    "116": "UNREVIEWED",
+    "117": "UNREVIEWED",
+    "118": "UNREVIEWED",
+    "119": "UNREVIEWED",
+    "120": "UNREVIEWED",
+    "121": "UNREVIEWED"
+  }
+}

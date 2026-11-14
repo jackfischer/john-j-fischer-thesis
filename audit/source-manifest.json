@@ -1,0 +1,10 @@
+{
+  "authoritative_source": {
+    "source/original-1957-typescript-scan.pdf": "b1ee8fe4688ecfdb2c7a6f971fdcca8574505de1137df4efb20fc8e2f252ec2d"
+  },
+  "reference_assets": {},
+  "checks": [
+    "audit_scan.py",
+    "audit_pdf.py"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "source_to_markdown": {
+    "source_pages": 121,
+    "markdown_alignment_tokens": 48234,
+    "tesseract_difference_regions": 7438,
+    "vision_difference_regions": 9663,
+    "shared_candidates": 278,
+    "confirmed_differences": 12,
+    "rejected_shared_ocr_suggestions": 7,
+    "ambiguous_inspections": 4,
+    "full_pages_signed_off": 0
+  },
+  "markdown_to_pdf": {
+    "streams": 143,
+    "strictly_passing": 142,
+    "equal_ignoring_case_diagnostic_only": 143,
+    "matching_note_attachments": 143,
+    "case_difference_groups": 26,
+    "extra_nested_quote_spaces": 6
+  }
+}

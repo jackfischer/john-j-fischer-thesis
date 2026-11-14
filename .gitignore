@@ -4,3 +4,6 @@
 *.out
 sample.pdf
 build/
+__pycache__/
+*.pyc
+.venv/
