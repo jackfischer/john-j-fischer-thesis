@@ -1,15 +1,23 @@
 # Fidelity audit — review required
 
-The scan-to-Markdown transcription is **not verbatim**. Twelve differences below
-were confirmed by inspecting the scan images. Several appear to correct mistakes
-in the original, but a literal edition must preserve those readings or identify
-the changes explicitly. No manuscript, generator, or PDF corrections have been
-applied in this audit.
+The second printing retains **eleven accepted spelling/grammar repairs or
+spelling normalizations, plus one French accent restoration** among the twelve
+readings below. The owner has authorized obvious, high-confidence minor repairs
+that preserve John's meaning and voice. These existing edition readings are now
+documented in [EDITORIAL-DECISIONS.md](EDITORIAL-DECISIONS.md) and the review
+ledger, rather than treated as unresolved transcription errors. This review
+introduces no new manuscript or PDF changes: the accepted readings are already
+in both files.
 
-These are findings from targeted inspections, not an exhaustive count of errors.
+The initial report's claim that the last entry dropped an *e* was mistaken:
+the actual manuscript and PDF say *chargé*. The old ASCII alignment omitted
+the accented letter from its token. That diagnosis is withdrawn, the tokenizer
+has been fixed, and regression tests preserve this distinction.
+
+These are targeted inspections, not an exhaustive count of errors or repairs.
 None of the 121 pages has yet received complete line-by-line sign-off.
 
-## Confirmed scan-to-Markdown differences
+## Reviewed readings — accepted for this edition
 
 Page numbers here are physical, one-based PDF pages. Printed body page numbers
 are three lower. Each link opens a preserved crop of the authoritative scan.
@@ -27,10 +35,10 @@ are three lower. Each link opens a preserved crop of the authoritative scan.
 | 61 | in | is | [history in his hypothesis](evidence/candidate-p061-136712e407c4.png) |
 | 82 | compliment | complement | [do not compliment each other](evidence/candidate-p082-169bb87d79e5.png) |
 | 92 | seperate | separate | [a seperate set of functions](evidence/candidate-p092-d7d2b70ce10f.png) |
-| 119 | charge' | charg' | [Soviet charge' d'affaires](evidence/candidate-p119-eb5a15d95644.png) |
+| 119 | charge' | chargé | [Soviet charge' d'affaires](evidence/candidate-p119-eb5a15d95644.png) |
 
 [review.json](review.json) records stable finding IDs, exact Markdown context and
-locations, dispositions, source-page coordinates, and evidence hashes. It also
+locations, resolved editorial decisions, source-page coordinates, and evidence hashes. It also
 records seven rejected shared OCR suggestions and four ambiguous inspections.
 For example, both OCR engines proposed changing 1848 to 1846 on scan page 58;
 the image supports the existing 1848. Agreement between engines is not proof.
@@ -76,9 +84,11 @@ the results while preserving the first profile separately.
 [recognition-provenance.json](recognition-provenance.json) preserves the initial
 engine/configuration details and per-page hashes outside the build directory.
 
-The current alignment has 7,438 Tesseract difference regions, 9,663 Vision
-difference regions, and 278 shared suggestions. These counts measure review
-work, not manuscript errors. Alignment uses case-insensitive alphanumeric tokens
+The initial ASCII alignment produced 7,438 Tesseract difference regions, 9,663
+Vision difference regions, and 278 shared suggestions. The corrected locator
+retains accented letters; regenerated counts are in `build/fidelity/scan-report.json`.
+These counts measure review work, not manuscript errors. Alignment uses
+case-insensitive alphanumeric tokens
 to locate passages; it cannot certify punctuation, case, or exact wording.
 Repeated-header exclusions are logged and still need image review. Original
 contents page 3 is explicitly excluded from body alignment, never silently
@@ -86,11 +96,12 @@ counted as verified.
 
 The remaining work is complete page-by-page scan comparison, adjudication of
 the disagreement queue, punctuation and emphasis review, marginal-note review,
-bibliography review, original/added front-matter accounting, and resolution of
-the confirmed differences in an evidence-backed changeset. Preserve source
-errors in the literal transcription; put any editorial corrections in a separate
-record. Never resolve an unclear scan from grammar, historical expectation, or
-OCR agreement alone.
+bibliography review, and original/added front-matter accounting. The twelve
+reviewed readings above are resolved. Further obvious mechanical repairs may be
+accepted under the documented editorial policy; each needs its exact source
+passage and an individual explanation. Preserve historical claims and authorial
+meaning. An unclear scan remains unresolved: editorial judgment about a known
+reading does not establish what an ambiguous image actually says.
 
 ## Reproduce
 
@@ -123,7 +134,7 @@ evidence also fail. `source-manifest.json` pins the authoritative scan;
 alone does not constitute a review. Large working files stay in ignored
 `build/fidelity/`; the compact initial results and image evidence live here.
 
-The 20 adversarial/regression tests cover changed digits, ordinals, omissions,
+The 22 adversarial/regression tests cover accented-word truncation, changed digits, ordinals, omissions,
 order, word boundaries, note identity/attachment, emphasis loss, mathematical
 superscripts, and accidental loss of text near page edges. They test detection
 of corruption, not agreement with the existing generator.

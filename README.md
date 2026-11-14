@@ -4,7 +4,7 @@ National War College thesis by Col. John J. Fischer, USAF, 1957
 Restored from original typeset scanned copy
 
 - `book.pdf`: the current typeset edition
-- `source/manuscript.md`: the working transcription (confirmed differences from the scan remain; see the fidelity audit)
+- `source/manuscript.md`: the working transcription, with documented minor editorial repairs (see the fidelity audit)
 - `./build.sh`: rebuild with pandoc + LuaLaTeX (memoir, EB Garamond, microtype)
 
 ## Build on macOS
@@ -23,6 +23,8 @@ Poppler supplies `pdfinfo`. The build generates `book.pdf` and `sample.pdf`.
 ## Fidelity audit
 
 [Audit findings, scan evidence, and reproduction instructions](audit/REPORT.md).
-The independent checks have confirmed twelve scan-to-Markdown differences.
-The transcription is not certified verbatim. Audit commands deliberately report
-`REVIEW_REQUIRED` while discrepancies and page review remain open.
+The [editorial decisions](audit/EDITORIAL-DECISIONS.md) accept eleven existing
+spelling/grammar repairs or spelling normalizations and one French accent
+restoration for this printing. The edition is not a verbatim facsimile.
+Audit commands deliberately report `REVIEW_REQUIRED` while the remaining
+discrepancies and page review remain open.

@@ -8,7 +8,7 @@
   "findings": [
     {
       "id": "candidate-p005-dd3ff2e73319",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "prophesy",
       "markdown": "prophecy",
       "both_ocr_proposal": "prophesy",
@@ -37,12 +37,24 @@
           "source_page_raster_sha256": "ef757f5127cd7f13f7bb2365ef18aae2dae2f33113f540664a2221933305653a"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'prophecy': The construction requires the noun prophecy; prophesy is a verb.",
+      "editorial_decision": {
+        "edition_reading": "prophecy",
+        "verified_manuscript_clause": "force of a Messianic prophecy",
+        "classification": "noun/verb repair",
+        "confidence": "HIGH",
+        "reason": "The construction requires the noun prophecy; prophesy is a verb.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p007-003fbfe070fb",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "analyse",
       "markdown": "analyze",
       "both_ocr_proposal": "analyse",
@@ -71,12 +83,24 @@
           "source_page_raster_sha256": "086736d0d160b7068b4c5a7d1b4926fd5469c018dd1e633d3fc6ecfcd1650b3e"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'analyze': Analyse is correct British spelling. Retain the existing American spelling analyze as authorized; no global normalization.",
+      "editorial_decision": {
+        "edition_reading": "analyze",
+        "verified_manuscript_clause": "study, analyze, dissect and refute",
+        "classification": "accepted spelling variant",
+        "confidence": "VALID_VARIANT_ACCEPTED",
+        "reason": "Analyse is correct British spelling. Retain the existing American spelling analyze as authorized; no global normalization.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p011-a740e3a88626",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "basis",
       "markdown": "basic",
       "both_ocr_proposal": "basis",
@@ -105,8 +129,20 @@
           "source_page_raster_sha256": "c143e1d1dfdf1674b05aa1bf9b899c10467a2f6efd0aed7c87b4dae72b715009"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'basic': Basic is the adjective fitting this sentence and the account of materialism. Basis of reality is another possible construction, but requires an added word.",
+      "editorial_decision": {
+        "edition_reading": "basic",
+        "verified_manuscript_clause": "matter is the basic reality",
+        "classification": "minimal grammatical repair",
+        "confidence": "HIGH",
+        "reason": "Basic is the adjective fitting this sentence and the account of materialism. Basis of reality is another possible construction, but requires an added word.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p013-abcb83504d6a",
@@ -144,7 +180,7 @@
     },
     {
       "id": "candidate-p035-958684cf3031",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "full",
       "markdown": "fully",
       "both_ocr_proposal": "full",
@@ -173,8 +209,20 @@
           "source_page_raster_sha256": "89c5a5c4dfed45cf40a904f1059889df8d90599b7bd253f945af5d845145230b"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'fully': Fully modifies appreciate. This supplies the missing adverb ending without changing the thought.",
+      "editorial_decision": {
+        "edition_reading": "fully",
+        "verified_manuscript_clause": "To appreciate fully the distinction",
+        "classification": "adverb ending restored",
+        "confidence": "HIGH",
+        "reason": "Fully modifies appreciate. This supplies the missing adverb ending without changing the thought.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p037-e34c80b853fc",
@@ -212,7 +260,7 @@
     },
     {
       "id": "candidate-p037-6ceb225634be",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "member",
       "markdown": "members",
       "both_ocr_proposal": "member",
@@ -241,12 +289,24 @@
           "source_page_raster_sha256": "d4b25155ebedb2e9f9f7d8035364b605ec2a307f833e2a1440cd007da21688fa"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'members': Adherents is plural, and the parallel Mensheviki clause already uses members of the minority.",
+      "editorial_decision": {
+        "edition_reading": "members",
+        "verified_manuscript_clause": "Bolsheviki or members of the majority",
+        "classification": "plural agreement",
+        "confidence": "HIGH",
+        "reason": "Adherents is plural, and the parallel Mensheviki clause already uses members of the minority.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p038-30ab53efd251",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "portend",
       "markdown": "portent",
       "both_ocr_proposal": "portend",
@@ -275,8 +335,20 @@
           "source_page_raster_sha256": "6ac37f2a57fb34fdff0294cdab149f58070454611da146617f8e5a5bb279b45a"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'portent': The noun phrase requires portent, a sign of what is to come. Portend is the verb.",
+      "editorial_decision": {
+        "edition_reading": "portent",
+        "verified_manuscript_clause": "certain was Lenin of the portent of events",
+        "classification": "noun/verb repair",
+        "confidence": "HIGH",
+        "reason": "The noun phrase requires portent, a sign of what is to come. Portend is the verb.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p040-1d9775b720fb",
@@ -348,7 +420,7 @@
     },
     {
       "id": "candidate-p052-7d221213a7aa",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "reconcilation",
       "markdown": "reconciliation",
       "both_ocr_proposal": "reconcilation",
@@ -377,8 +449,20 @@
           "source_page_raster_sha256": "1ab713d7684c2424f6326cf262a45a6305314ee7784501bfca15a045ebb3dbf3"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'reconciliation': Reconciliation is the unambiguous intended word; the typescript omits an i.",
+      "editorial_decision": {
+        "edition_reading": "reconciliation",
+        "verified_manuscript_clause": "reconciliation of opposites",
+        "classification": "spelling repair",
+        "confidence": "HIGH",
+        "reason": "Reconciliation is the unambiguous intended word; the typescript omits an i.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p054-7ea010820d41",
@@ -450,7 +534,7 @@
     },
     {
       "id": "candidate-p057-51c1b3aceed8",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "classess",
       "markdown": "classes",
       "both_ocr_proposal": "classess",
@@ -479,8 +563,20 @@
           "source_page_raster_sha256": "9219850610e27a5eca8694ae1bd743c93984dd48bf40d4a9ab64d454f418df59"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'classes': The intended plural of social class is classes; the final extra s is mechanical.",
+      "editorial_decision": {
+        "edition_reading": "classes",
+        "verified_manuscript_clause": "less polarized into classes",
+        "classification": "duplicate letter removed",
+        "confidence": "HIGH",
+        "reason": "The intended plural of social class is classes; the final extra s is mechanical.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p058-c53b19dbef6d",
@@ -518,7 +614,7 @@
     },
     {
       "id": "candidate-p061-136712e407c4",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "in",
       "markdown": "is",
       "both_ocr_proposal": "in",
@@ -547,8 +643,20 @@
           "source_page_raster_sha256": "6c8479b4346b710547f9a211dc4f4188d32b65061d0c0b513166000d85e5ad0d"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'is': Is supplies the finite verb identifying the hypothesis as the key; in leaves this sentence without a finite verb.",
+      "editorial_decision": {
+        "edition_reading": "is",
+        "verified_manuscript_clause": "Toynbee's key to the riddle of history is his hypothesis",
+        "classification": "finite verb restored",
+        "confidence": "HIGH",
+        "reason": "Is supplies the finite verb identifying the hypothesis as the key; in leaves this sentence without a finite verb.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p066-5ff000a95886",
@@ -586,7 +694,7 @@
     },
     {
       "id": "candidate-p082-169bb87d79e5",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "compliment",
       "markdown": "complement",
       "both_ocr_proposal": "compliment",
@@ -615,8 +723,20 @@
           "source_page_raster_sha256": "6a1dc589d380617e9165ed109e3a646b66af4ea48c8f6616c82d1cf88b48f647"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'complement': The argument concerns compatibility with human nature, so complement (fit together) is intended, rather than compliment (praise).",
+      "editorial_decision": {
+        "edition_reading": "complement",
+        "verified_manuscript_clause": "they do not complement each other",
+        "classification": "homophone repair",
+        "confidence": "HIGH",
+        "reason": "The argument concerns compatibility with human nature, so complement (fit together) is intended, rather than compliment (praise).",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p085-3b43212f6d7f",
@@ -688,7 +808,7 @@
     },
     {
       "id": "candidate-p092-d7d2b70ce10f",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "disposition": "RESOLVED",
       "scan_reading": "seperate",
       "markdown": "separate",
       "both_ocr_proposal": "seperate",
@@ -717,8 +837,20 @@
           "source_page_raster_sha256": "dc561300fd718eed3a4ece0efd8380e0fa0edb6401e64f83cb586dd55968d691"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'separate': Separate is the correct spelling; seperate is a spelling mistake.",
+      "editorial_decision": {
+        "edition_reading": "separate",
+        "verified_manuscript_clause": "each group entrusted with a separate set of functions",
+        "classification": "spelling repair",
+        "confidence": "HIGH",
+        "reason": "Separate is the correct spelling; seperate is a spelling mistake.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false
     },
     {
       "id": "candidate-p114-a28942d35cd2",
@@ -756,15 +888,15 @@
     },
     {
       "id": "candidate-p119-eb5a15d95644",
-      "disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
-      "scan_reading": "charge",
-      "markdown": "charg",
+      "disposition": "RESOLVED",
+      "scan_reading": "charge'",
+      "markdown": "chargé",
       "both_ocr_proposal": "charge",
       "context_before": "commenting on the call made upon the Papal Nuncio by the Soviet",
       "context_after": "d affaires in Rome the editor points out that the gesture was",
       "markdown_location": {
-        "text": "charg",
-        "key": "charg",
+        "text": "chargé",
+        "key": "chargé",
         "block": "/471",
         "section": "bibliography",
         "markdown_line": 1317,
@@ -785,8 +917,25 @@
           "source_page_raster_sha256": "1354223e45e67b6aae1114244e6bae131e48358d4fd93edbc9630b71c4b2e25a"
         }
       ],
-      "basis": "Direct inspection of the scan crop; preserve even source errors in a literal transcription.",
-      "correction_applied": false
+      "basis": "Scan evidence retained; editorial judgment and owner-authorized minor-repair policy recorded in audit/EDITORIAL-DECISIONS.md.",
+      "initial_disposition": "CONFIRMED_TRANSCRIPTION_DIFFERENCE",
+      "resolution": "Retain existing edition reading 'chargé': The accented French diplomatic term is already correct in the manuscript and book. The earlier ASCII alignment truncated chargé to charg; its missing-letter diagnosis was wrong.",
+      "editorial_decision": {
+        "edition_reading": "chargé",
+        "verified_manuscript_clause": "Soviet chargé d'affaires in Rome",
+        "classification": "typographic accent restoration",
+        "confidence": "HIGH",
+        "reason": "The accented French diplomatic term is already correct in the manuscript and book. The earlier ASCII alignment truncated chargé to charg; its missing-letter diagnosis was wrong.",
+        "authorization": "Owner permits obvious typewriter/spelling repairs and high-confidence minimal repairs in this second printing.",
+        "state": "Already present in the inspected manuscript and PDF; retained without text changes.",
+        "record": "audit/EDITORIAL-DECISIONS.md"
+      },
+      "correction_applied_in_this_review": false,
+      "initial_alignment_token": "charg",
+      "alignment_aliases": [
+        "candidate-p119-c154247db1d1"
+      ],
+      "initial_diagnosis_withdrawn": "No missing e: the manuscript already has chargé. ASCII tokenization dropped the accented letter."
     },
     {
       "id": "source-heading-note-30",
@@ -847,8 +996,7 @@
   ],
   "outstanding_review": [
     "All 121 full scan pages still require complete line-by-line image review; spot inspections are not page sign-off.",
-    "OCR disagreement queue and uninspected shared candidates remain open, including punctuation, case, marginal notes, and bibliography.",
-    "Resolve confirmed transcription differences with an explicit evidence-backed changeset.",
+    "Unadjudicated OCR differences and uninspected shared candidates remain open, including punctuation, case, marginal notes, and bibliography.",
     "Review original and added front matter, original contents omission, per-character emphasis, and six nested-quote spacing differences."
   ],
   "full_page_review": {
@@ -973,5 +1121,11 @@
     "119": "UNREVIEWED",
     "120": "UNREVIEWED",
     "121": "UNREVIEWED"
+  },
+  "editorial_policy": {
+    "record": "audit/EDITORIAL-DECISIONS.md",
+    "scope": "Owner-approved, individually documented minor repairs; preserve meaning and voice.",
+    "reviewed_readings_resolved": 12,
+    "text_changes_in_this_review": 0
   }
 }

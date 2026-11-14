@@ -19,7 +19,9 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'build/fidelity'
-WORDS = re.compile(r'[A-Za-z0-9]+')
+# Keep accented letters: ASCII-only matching truncated "chargé" to "charg" and
+# caused a misleading missing-letter finding. This remains a loose locator.
+WORDS = re.compile(r'[^\W_]+')
 
 
 def sha(path):
@@ -266,6 +268,16 @@ def main():
     vision, ve = vision_tokens(OUT/'ocr')
     tf, tc = align(expected, tess)
     vf, vc = align(expected, vision)
+    decisions = {}
+    ledger_path = ROOT/'audit/review.json'
+    if ledger_path.exists():
+        ledger = json.loads(ledger_path.read_text())
+        observed = ledger['observed_inputs']
+        if (observed.get('source/manuscript.md') == sha(manuscript)
+                and observed.get('source/original-1957-typescript-scan.pdf') == provenance['configuration']['source_sha256']):
+            for finding in ledger['findings']:
+                for identity in [finding['id'], *finding.get('alignment_aliases', [])]:
+                    decisions[identity] = finding
     tess_map = {tuple(row['markdown_range']): row for row in tf}
     candidates = []
     for row in vf:
@@ -275,6 +287,11 @@ def main():
             signature = (str(candidate['pages'])+'|'+candidate['markdown']+'|'+candidate['recognized']+'|'+candidate['context_before']+'|'+candidate['context_after']).encode()
             identity = f'candidate-p{candidate["pages"][0]:03d}-' + hashlib.sha256(signature).hexdigest()[:12]
             candidate['id'] = identity
+            if identity in decisions:
+                decision = decisions[identity]
+                candidate['status'] = decision['disposition']
+                candidate['review_ledger_id'] = decision['id']
+                candidate['review_basis'] = decision.get('resolution', decision['basis'])
             candidate['crop'] = crop(candidate, identity)
             candidates.append(candidate)
     report = {'status': 'SCAN_REVIEW_REQUIRED', 'source_sha256': sha(ROOT/'source/original-1957-typescript-scan.pdf'),
@@ -296,7 +313,8 @@ def main():
         md.extend([f'## {row["id"]} — PDF page(s) {row["pages"]}', '',
                    f'Markdown: `{row["markdown"]}`', '', f'Both recognition engines: `{row["recognized"]}`', '',
                    f'Context: {row["context_before"]} **[{row["markdown"]}]** {row["context_after"]}', '',
-                   f'![Scan evidence]({row["crop"]})', '', 'Disposition: UNREVIEWED', ''])
+                   f'![Scan evidence]({row["crop"]})', '', f'Disposition: {row["status"]}',
+                   row.get('review_basis', ''), ''])
     (OUT/'REVIEW.md').write_text('\n'.join(md))
     print(f'SCAN_REVIEW_REQUIRED: {len(tf)} Tesseract regions, {len(vf)} Vision regions, {len(candidates)} shared candidates')
     raise SystemExit(1)
