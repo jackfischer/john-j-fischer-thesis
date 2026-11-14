@@ -3,7 +3,8 @@
   "observed_inputs": {
     "source/original-1957-typescript-scan.pdf": "b1ee8fe4688ecfdb2c7a6f971fdcca8574505de1137df4efb20fc8e2f252ec2d",
     "source/manuscript.md": "0c8fb2b9479ef1f12f851445736a124b4ae3298e3474b24c2bd8c9154582b89b",
-    "book.pdf": "845ceb423e67010d1770e88e2b77801bea5aee7f6c8ba5296750956f849673c7"
+    "book.pdf": "50cc12e7638e8a51a70210ad9423db5640fadab6955ae996079d438d8374dec7",
+    "book-lulu.pdf": "0978110ff92cb4b68486ccaa67513edffcd93912c3ca9dd4d8a6a3fd5145eb10"
   },
   "findings": [
     {
@@ -1127,5 +1128,13 @@
     "scope": "Owner-approved, individually documented minor repairs; preserve meaning and voice.",
     "reviewed_readings_resolved": 12,
     "text_changes_in_this_review": 0
+  },
+  "typography_review": {
+    "date": "2026-11-14",
+    "baseline_book_sha256": "845ceb423e67010d1770e88e2b77801bea5aee7f6c8ba5296750956f849673c7",
+    "print_preflight": "audit/print-preflight.json",
+    "source_and_intermediate_unchanged": true,
+    "scope": "Typography and print-production review; prior transcription/editorial review retains its own scope.",
+    "text_regression": "All 143 streams preserve baseline wording, case, emphasis, word boundaries, and note attachments; see audit/typography-wording.json."
   }
 }

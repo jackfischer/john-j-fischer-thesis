@@ -91,6 +91,11 @@ def roman(number):
 
 def rendered(doc,lines,note_map,blocks):
     streams=collections.defaultdict(list);excluded=[]
+    # Edition front matter may reflow. Locate the author's text by bookmarks,
+    # retaining the original positions for PDFs predating the bookmark export.
+    starts={title:page for level,title,page in doc.get_toc() if level==1}
+    first_page=starts.get('Preface',13)
+    main_start=starts.get('Introduction',15)
     chapter_titles=[re.sub(r'^Chapter [IVX]+ — ','',b['text']).lower()
                     for b in blocks if b['kind']=='Header' and b['text'].startswith('Chapter ')]
     headers=set(chapter_titles)|{'an ideological offensive for the free world','preface','bibliography',
@@ -98,10 +103,10 @@ def rendered(doc,lines,note_map,blocks):
     note=None
     next_anchor=1
     for page,page_lines in lines.items():
-        if page<13 or page==len(doc):
+        if page<first_page or page==len(doc):
             for line in page_lines:excluded.append({'page':page,'text':line_text(line),'reason':'edition front matter / facsimile / colophon'})
             continue
-        folio=roman(page) if page<15 else str(page-14)
+        folio=roman(page) if page<main_start else str(page-main_start+1)
         furniture=headers|{folio}|{f'{folio} {h}' for h in headers}|{f'{h} {folio}' for h in headers}
         rules=[d['rect'] for d in doc[page-1].get_drawings()
                if any(abs(d['rect'].width-width)<.02 for width in (43.636,39.851))

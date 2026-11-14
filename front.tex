@@ -67,7 +67,9 @@ of John J. Fischer,\\[0.5ex]
 \cleartorecto
 \pagestyle{fischer}
 % ---- contents ----
-{\setlength{\beforechapskip}{0.35in}\tableofcontents*}
+% Keep the complete contents on one page, including the final Periodicals entry.
+{\setlength{\beforechapskip}{0.25in}%
+ \setlength{\cftbeforechapterskip}{0.22\onelineskip}\tableofcontents*}
 \cleartorecto
 % ---- family foreword ----
 \chapter{Foreword}
@@ -84,7 +86,10 @@ of John J. Fischer,\\[0.5ex]
 \begin{flushright}\itshape [Name]\\ Brooklyn, New York, 2026\end{flushright}
 
 % ---- note on the transcription ----
+% A modest opener keeps this short editorial note on one page.
+{\setlength{\beforechapskip}{0.45in}\setlength{\afterchapskip}{1.4\onelineskip}
 \chapter{A Note on the Transcription}
+}
 
 \noindent\textsc{This edition} reproduces the text of the original typescript of March 1957, 121 pages, from a careful transcription checked line by line against images of every page. The author’s wording, spelling and punctuation have been kept, including the usages of his day (\textit{indorsed}, \textit{thru}, \textit{benefitted}). Words divided at the ends of typed lines have been closed up, and the few letters blurred on the old paper have been read from context; otherwise the text stands as it was typed.
 

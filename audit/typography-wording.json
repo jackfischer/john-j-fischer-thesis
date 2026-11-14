@@ -1,0 +1,1296 @@
+{
+  "status": "PASS",
+  "scope": "Typesetting regression against the previously accepted edition; not a transcription certificate. Source-informed discretionary hyphens and physical line breaks accounted for; case and emphasis preserved.",
+  "baseline_book_sha256": "845ceb423e67010d1770e88e2b77801bea5aee7f6c8ba5296750956f849673c7",
+  "book_sha256": "50cc12e7638e8a51a70210ad9423db5640fadab6955ae996079d438d8374dec7",
+  "source_markdown_sha256": "0c8fb2b9479ef1f12f851445736a124b4ae3298e3474b24c2bd8c9154582b89b",
+  "comparisons": [
+    {
+      "stream": "body",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:1",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:10",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:100",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:101",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:102",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:103",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:104",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:105",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:106",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:107",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:108",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:109",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:11",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:110",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:111",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:112",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:113",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:114",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:115",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:116",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:117",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:118",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:119",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:12",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:120",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:121",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:122",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:123",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:124",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:125",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:126",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:127",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:128",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:129",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:13",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:130",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:131",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:132",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:133",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:134",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:135",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:136",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:137",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:138",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:139",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:14",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:140",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:141",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:142",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:15",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:16",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:17",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:18",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:19",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:2",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:20",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:21",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:22",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:23",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:24",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:25",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:26",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:27",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:28",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:29",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:3",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:30",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:31",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:32",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:33",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:34",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:35",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:36",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:37",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:38",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:39",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:4",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:40",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:41",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:42",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:43",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:44",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:45",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:46",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:47",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:48",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:49",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:5",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:50",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:51",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:52",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:53",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:54",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:55",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:56",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:57",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:58",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:59",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:6",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:60",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:61",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:62",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:63",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:64",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:65",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:66",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:67",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:68",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:69",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:7",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:70",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:71",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:72",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:73",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:74",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:75",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:76",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:77",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:78",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:79",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:8",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:80",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:81",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:82",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:83",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:84",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:85",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:86",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:87",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:88",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:89",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:9",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:90",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:91",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:92",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:93",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:94",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:95",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:96",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:97",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:98",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    },
+    {
+      "stream": "note:99",
+      "characters_identical": true,
+      "anchors_identical": true,
+      "emphasis_identical": true,
+      "word_boundaries_match": true,
+      "hyphens_accounted_for": true,
+      "passed": true
+    }
+  ]
+}

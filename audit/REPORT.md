@@ -1,5 +1,14 @@
 # Fidelity audit — review required
 
+The subsequent hardcover typography pass leaves `source/manuscript.md` unchanged.
+[typography-wording.json](typography-wording.json) records a passing comparison
+of all 143 streams against the preceding accepted PDF, preserving wording,
+case, emphasis, word boundaries, and note attachment through reflow. The new
+150-page reading PDF and its Lulu bleed export have a separate
+[print preflight](print-preflight.json); see [PRINTING.md](../PRINTING.md).
+That production result does not change the historical transcription-review
+status below. References to no PDF changes describe the earlier editorial review.
+
 The second printing retains **eleven accepted spelling/grammar repairs or
 spelling normalizations, plus one French accent restoration** among the twelve
 readings below. The owner has authorized obvious, high-confidence minor repairs

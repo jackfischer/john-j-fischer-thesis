@@ -1,12 +1,14 @@
+\RequirePackage{fix-cm} % scalable fallback math fonts when tracking display text
 \documentclass[11pt,twoside,openright,final]{memoir}
 % ---------------- page geometry: 6 x 9 in trim, no bleed ----------------
 \setstocksize{9in}{6in}
 \settrimmedsize{9in}{6in}{*}
 \settrims{0pt}{0pt}
-\setlrmarginsandblock{0.82in}{1.05in}{*}   % inner (gutter), outer
+\setbinding{0.10in}
+\setlrmarginsandblock{0.80in}{0.97in}{*}   % 0.90in physical spine margin; original column width
 \setulmarginsandblock{0.88in}{1.02in}{*}   % top, bottom
 \setheadfoot{14pt}{0.42in}
-\setheaderspaces{*}{0.24in}{*}
+\setheaderspaces{*}{10pt}{*} % running heads also remain inside Lulu's 0.50in safety
 \checkandfixthelayout[nearest]
 % ---------------- language & fonts ----------------
 \usepackage[american]{babel}
@@ -22,6 +24,7 @@
             final,stretch=15,shrink=15,step=1]{microtype}
 \SetTracking{encoding=*,shape=sc}{40}
 \usepackage{graphicx}
+\usepackage{ragged2e}
 \usepackage{enumitem}
 \providecommand{\texorpdfstring}[2]{#1}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -36,7 +39,8 @@
 \tolerance=800 \emergencystretch=1.5em
 \hyphenpenalty=60
 \frenchspacing
-\sloppybottom
+\raggedbottom
+\feetatbottom
 \raggedbottomsection
 % ---------------- running heads ----------------
 \newcommand{\booktitle}{An Ideological Offensive for the Free World}
@@ -133,8 +137,12 @@
 \setlist[enumerate]{leftmargin=2.2em,labelsep=0.6em,itemsep=0.35\onelineskip,topsep=0.5\onelineskip,label=\alph*.}
 % ---------------- bibliography ----------------
 \makeatletter
-\newenvironment{bibentry}{\par\addvspace{0.55\onelineskip plus 0.5\onelineskip}\parindent=0pt
+\newenvironment{bibentry}{\par\addvspace{0.55\onelineskip plus 0.5\onelineskip}\RaggedRight\parindent=0pt
   \everypar{\hangindent=1.1em\hangafter=1}}{\par}
 \newenvironment{bibnote}{\par\nopagebreak\@nobreaktrue\small\everypar{}%
   \list{}{\leftmargin=2.2em\rightmargin=0pt\topsep=0pt\partopsep=0pt\parsep=0pt\itemsep=0pt\listparindent=0pt\itemindent=0pt}\item\relax}{\endlist}
 \makeatother
+% Screen navigation is unobtrusive in the printed book.
+\usepackage[hidelinks,bookmarksopen=false]{hyperref}
+\hypersetup{pdftitle={An Ideological Offensive for the Free World},
+  pdfauthor={John J. Fischer},pdfsubject={National War College research paper, 1957; family edition}}
